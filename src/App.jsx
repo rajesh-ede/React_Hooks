@@ -1,8 +1,9 @@
 
 import './App.css'
-import UseEffectHook from './Hooks/UseEffectHook'
+import UseContextHook from './Hooks/useContextHook'
+// import UseEffectHook from './Hooks/UseEffectHook'
 
-import UseStateHook from './Hooks/UseStateHook'
+// import UseStateHook from './Hooks/UseStateHook'
 
 function App() {
  
@@ -10,7 +11,8 @@ function App() {
   return (
    <div>
    {/* <UseStateHook /> */}
-     <UseEffectHook /> 
+     {/* <UseEffectHook />  */}
+     <UseContextHook />
    </div>
   )
 }
